@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="{{ locale }}">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>{{ title }}</title>
+        <style>
+            {% set css %} {% include "reset.css" %} {% include "style.css" %} {% endset %}
+            {{ css | cssmin | safe }}
+        </style>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="content">
+                <aside>
+                    <section>
+                        <h1>Maciej Gunia</h1>
+                        <p>{{ about }}</p>
+                    </section>
+                    <section>
+                        <p><a href="mailto:maciej.gunia@gmail.com">maciej.gunia@gmail.com</a></p>
+                        <p>+48 881 488 190</p>
+                        <p>
+                            <a href="https://github.com/maciejgunia">Github profile</a>
+                        </p>
+                        <p>
+                            <a href="https://www.codewars.com/users/maciejgunia">Codewars profile</a>
+                        </p>
+                    </section>
+                    <section>
+                        <h3>{{ primary }}</h3>
+                        <p>Angular 2+, Typescript, HTML5, CSS3, SCSS, Jasmine + Karma, RESTful API</p>
+                    </section>
+                    <section>
+                        <h3>{{ secondary }}</h3>
+                        <p>AngularJS, NodeJS, React, Vue</p>
+                    </section>
+                    <section>
+                        <h3>{{ tools }}</h3>
+                        <p>Git, Jiira, Scrum, Docker, K8s, Grafana, Rollbar, Photoshop</p>
+                    </section>
+                </aside>
+                <main>{{ content | safe }}</main>
+            </div>
+            <footer>
+                <small>{{ consent }}</small>
+            </footer>
+        </div>
+    </body>
+</html>
