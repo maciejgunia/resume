@@ -15,7 +15,11 @@
             navigator.systemLanguage ||
             "en";
 
-        console.log(getLanguage());
+        if (getLanguage().startsWith("pl")) {
+            window.location = "/pl";
+        } else {
+            window.location = "/en";
+        }
     </script>
     <body></body>
 </html>

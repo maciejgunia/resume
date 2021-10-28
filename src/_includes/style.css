@@ -1,6 +1,7 @@
 :root {
     --c-text: #222222;
     --c-secondary: #444444;
+    --c-aside: lightgrey;
 }
 
 h1,
@@ -41,9 +42,8 @@ h5 {
 }
 
 p {
-    font-size: 16px;
+    font-size: 15px;
     line-height: 1.5;
-    margin-bottom: 0.2em;
 }
 
 a {
@@ -76,8 +76,10 @@ main p {
 }
 
 aside {
+    display: flex;
+    flex-direction: column;
     flex-shrink: 0;
-    background: lightgray;
+    background: var(--c-aside);
     padding: 20px;
 }
 
@@ -97,6 +99,9 @@ footer {
 small {
     color: var(--c-secondary);
     font-style: italic;
+    margin-top: auto;
+    font-size: 14px;
+    line-height: 1.2;
 }
 
 @media print, (min-width: 800px) {
