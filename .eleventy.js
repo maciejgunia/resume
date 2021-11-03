@@ -9,6 +9,10 @@ module.exports = function (config) {
         return new CleanCSS({}).minify(code).styles;
     });
 
+    config.addPassthroughCopy("./src/*.png");
+    config.addPassthroughCopy("./src/*.jpeg");
+    config.addPassthroughCopy("./src/site.webmanifest");
+
     return {
         dir: {
             input: "src",

@@ -1,7 +1,8 @@
 :root {
     --c-text: #222222;
+    --c-inverse: #f3f9fc;
     --c-secondary: #444444;
-    --c-aside: lightgrey;
+    --c-aside: #3e7091;
 }
 
 h1,
@@ -47,7 +48,7 @@ p {
 }
 
 a {
-    color: initial;
+    color: var(--c-inverse);
 }
 
 body {
@@ -73,6 +74,22 @@ main {
 
 main p {
     text-align: justify;
+    margin: 0 0 10px;
+}
+
+main ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 0 5px;
+}
+
+main li {
+    background: var(--c-aside);
+    color: var(--c-inverse);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px 10px 5px 0;
+    font-size: 12px;
 }
 
 aside {
@@ -81,6 +98,18 @@ aside {
     flex-shrink: 0;
     background: var(--c-aside);
     padding: 20px;
+    color: var(--c-inverse);
+}
+
+aside img {
+    border-radius: 50%;
+    margin: 0 20px 20px;
+    max-width: 220px;
+    align-self: center;
+}
+
+aside small {
+    color: var(--c-inverse);
 }
 
 section {
@@ -93,11 +122,10 @@ hr {
 }
 
 footer {
-    padding: 20px;
+    padding: 20px 0;
 }
 
 small {
-    color: var(--c-secondary);
     font-style: italic;
     margin-top: auto;
     font-size: 14px;

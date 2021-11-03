@@ -5,6 +5,10 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>{{ title }}</title>
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+        <link rel="manifest" href="/site.webmanifest" />
         <style>
             {% set css %} {% include "reset.css" %} {% include "style.css" %} {% endset %}
             {{ css | cssmin | safe }}
@@ -14,6 +18,7 @@
         <div class="wrapper">
             <div class="content">
                 <aside>
+                    <img src="/avatar.jpeg" alt="" />
                     <section>
                         <h1>Maciej Gunia</h1>
                         <p>{{ about }}</p>
@@ -22,28 +27,43 @@
                         <p><a href="mailto:maciej.gunia@gmail.com">maciej.gunia@gmail.com</a></p>
                         <p>+48 881 488 190</p>
                         <p>
-                            <a href="https://github.com/maciejgunia">Github profile</a>
+                            <a href="https://github.com/maciejgunia">Github</a>
                         </p>
                         <p>
-                            <a href="https://www.codewars.com/users/maciejgunia">Codewars profile</a>
+                            <a href="https://www.codewars.com/users/maciejgunia">Codewars</a>
                         </p>
                     </section>
                     <section>
                         <h3>{{ primary }}</h3>
-                        <p>Angular 2+, Typescript, HTML5, CSS3, SCSS, Jasmine + Karma, RESTful API</p>
+                        <p>JavaScript, TypeScript, HTML5 & CSS3, Sass, Angular, RESTful API, Karma + Jasmine</p>
                     </section>
                     <section>
                         <h3>{{ secondary }}</h3>
-                        <p>AngularJS, NodeJS, React, Vue</p>
+                        <p>AngularJS, NodeJS, React</p>
                     </section>
                     <section>
                         <h3>{{ tools }}</h3>
-                        <p>Git, Jiira, Scrum, Docker, K8s, Grafana, Rollbar, Photoshop</p>
+                        <p>Git, Jira, Scrum, Docker, K8s, Grafana, Rollbar, Photoshop</p>
                     </section>
-                    <small>{{ consent }}</small>
+                    <section>
+                        <h3>{{ education }}</h3>
+                        <p>{{ educationContent }}</p>
+                    </section>
+                    <section>
+                        <h3>{{ inspiration }}</h3>
+                        <p>
+                            <small
+                                >If you don't actively fight for simplicity in software, the complexity will win... and
+                                it will suck (henrik joreteg)</small
+                            >
+                        </p>
+                    </section>
                 </aside>
                 <main>{{ content | safe }}</main>
             </div>
+            <footer>
+                <small>{{ consent }}</small>
+            </footer>
         </div>
     </body>
 </html>
