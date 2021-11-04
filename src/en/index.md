@@ -31,13 +31,13 @@ inspiration: Inspiration
 -   Git
 -   Docker
 
-Maintaining and developing gog.com - creating new functionalities and interface elements (promotions, product presentation, filtering, orders, paymants, backoffice etc.), bugfixing, monitoring.
+Maintaining and developing gog.com - creating new functionalities and interface elements (promotions, product presentation, filtering, orders, payments, backoffice etc.), bugfixing, monitoring.
 
-Developing a new e-commerce application (GOG Galaxy Store) introducing technologies that are new for the organisation (Angular 2+, SPA, SSR). I was being built as means to integrate better with a desktop application (GOG Galaxy) and to enable users to access more content (integration with other shops).
+Developing a new e-commerce application (GOG Galaxy Store) using technologies that were new for the organisation (Angular 2+, SPA, SSR). It was being built as means to integrate better with a desktop application (GOG Galaxy) and to enable users to access more content (integration with other shops).
 
-Building and integrating refreshed versions of several modules of gog.com as a way to reduce / remove legacy solutions (monolith, AngularJS). Currently new version of the product catalog is being implemented.
+Building and integrating refreshed version of gog.com product catalog (using newest Angular, SSR and K8s) as a way to reduce / remove legacy solutions.
 
-Writing unit tests for new and existing modules (test coverage in new applications was at 90%).
+Writing unit tests for new and existing modules and keeping coverage high when possible.
 
 Helping with the growth of less experienced developers (pair programming, workshops, hackatons, growth plans, 1 on 1 meetings).
 
@@ -58,7 +58,7 @@ Helping with the growth of less experienced developers (pair programming, worksh
 
 Implementing new functionalities, fixing bugs and refactoring code using fully component-based frontend.
 
-Building a React application for artists to upload their artworks with scalability and good UX in mind. This was the first use of React in the organisation.
+Building a React application for artists to upload their artworks to displate.com with scalability and good UX in mind. This was the first use of React in the organisation.
 
 ---
 
@@ -71,7 +71,7 @@ Building a React application for artists to upload their artworks with scalabili
 -   Wordpress
 -   Facebook Ads
 
-Technical supervision over a newsportal, implementation of new and efficient functionalities as well as optimizing the efects of email campaigns.
+Technical supervision over a news portal, implementation of new and efficient functionalities as well as optimizing the effects of email campaigns.
 
 ---
 
