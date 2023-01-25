@@ -1,7 +1,7 @@
 ---
 title: Maciej Gunia - Resume
 layout: base.njk
-about: I am a hardworking, objective focused person who is passionate about his work. Having experience in both frontend development as well as bussines/management, I feel like I can better understand my role in solving problems and providing solutions. I am constantly looking for new technologies, tools or just tricks that will help me do my job better. I always try to keep my mind open and think out of the box.
+about: I am a hardworking, objective focused person who is passionate about his work. Having combined 10 years of experience in both frontend development as well as bussines/management, I feel like I can better understand my role in solving problems and providing solutions. Most of my experience is related to e-commerce but I am constantly looking for new challenges that will help me grow. I always try to keep my mind open, be flexible and think out of the box.
 consent: 'I hereby give consent for my personal data included in my application to be processed for the purposes of the recruitment process under the Personal Data Protection Act as of 29 August 1997, consolidated text: Journal of Laws 2016, item 922 as amended.'
 primary: Primary skills
 secondary: Secondary skills
