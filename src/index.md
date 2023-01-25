@@ -13,11 +13,32 @@ inspiration: Inspiration
 
 ## Experience
 
+### Conscensia / Whiteaway Group
+
+#### Senior Engineer
+
+##### Sept 2022 - Present
+
+- React
+- Next.js
+- NodeJS
+- Jest
+- Styled Components
+- JavaScript
+- TypeScript
+- HTML5 & CSS3
+- Storybook
+- Git
+
+Building a new version of the shop using Next.js framework, storybook driven component library and design system. Preparation of A/B experiments, features and bugfixing on the legacy store.
+
+---
+
 ### intive / Allegro
 
 #### Senior Engineer
 
-##### Jan 2022 - Present
+##### Jan 2022 - Aug 2022
 
 - React
 - Preact
