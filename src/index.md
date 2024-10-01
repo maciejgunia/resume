@@ -1,8 +1,8 @@
 ---
 title: Maciej Gunia - Resume
 layout: base.njk
-about: I am a hardworking, objective focused person who is passionate about his work. Having combined 10 years of experience in both frontend development as well as bussines/management, I feel like I can better understand my role in solving problems and providing solutions. Most of my experience is related to e-commerce but I am constantly looking for new challenges that will help me grow. I always try to keep my mind open, be flexible and think out of the box.
-consent: 'I hereby give consent for my personal data included in my application to be processed for the purposes of the recruitment process under the Personal Data Protection Act as of 29 August 1997, consolidated text: Journal of Laws 2016, item 922 as amended.'
+about: I am a hardworking, objective focused person who is passionate about his work. Having combined 12 years of experience in both frontend development as well as bussines/leadership, I feel like I can better understand my role in solving problems and providing solutions. Most of my experience is related to e-commerce but I did a fair bit of SASS development and I am constantly looking for new challenges that will help me grow. I always try to keep my mind open, be flexible and think out of the box.
+consent: 'I agree to the processing of personal data provided in this document for realising the recruitment process pursuant to the Personal Data Protection Act of 10 May 2018 (Journal of Laws 2018, item 1000) and in agreement with Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation).'
 primary: Primary skills
 secondary: Secondary skills
 tools: Tools
@@ -13,11 +13,34 @@ inspiration: Inspiration
 
 ## Experience
 
+### CAE
+
+#### Frontend Tech Lead
+
+##### Mar 2023 - Present
+
+- React
+- Redux / RTK / RTK Query
+- Vitest
+- CSS Modules
+- OpenApi
+- Mock Service Worker
+- JavaScript
+- TypeScript
+- HTML5 & CSS3
+- Storybook
+- Git
+- Java
+
+Developing a well tested suite of applications meant to simplify planning flights for airlines. Using and developing a component library to ensure consistency of user experience and optimal velocity of implementing new features. Using OpenAI types and services generation provide a clean view on the API. Peer code review, sharing solutions and participating in unifying development process.
+
+---
+
 ### Conscensia / Whiteaway Group
 
 #### Senior Engineer
 
-##### Sept 2022 - Present
+##### Sep 2022 - Feb 2023
 
 - React
 - Next.js
@@ -30,7 +53,7 @@ inspiration: Inspiration
 - Storybook
 - Git
 
-Building a new version of the shop using Next.js framework, storybook driven component library and design system. Preparation of A/B experiments, features and bugfixing on the legacy store.
+Building a new version of the shop using Next.js framework, storybook driven component library and design system. Preparation of A/B experiments, features and bugfixing in the legacy store.
 
 ---
 
@@ -53,7 +76,7 @@ Building a new version of the shop using Next.js framework, storybook driven com
 - Git
 - Kotlin
 
-Building features on frontend and backend in Product Page and Favourites contexts.
+Building features on frontend and backend in Product Page and Favourites contexts using an internal component library.
 
 ---
 
@@ -74,11 +97,7 @@ Building features on frontend and backend in Product Page and Favourites context
 - Git
 - Docker
 
-Developing a new e-commerce application (GOG Galaxy Store).
-
-Building and integrating refreshed version of GOG.com product catalog using newest Angular, SSR and K8s).
-
-Helping with the growth of less experienced developers (pair programming, workshops, hackatons, growth plans, 1 on 1 meetings).
+Developing a new e-commerce application (GOG Galaxy Store). Building and integrating refreshed version of GOG.com product catalog using newest Angular, SSR and K8s). Helping with the growth of less experienced developers (pair programming, workshops, hackatons, growth plans, 1 on 1 meetings).
 
 ---
 
@@ -97,9 +116,7 @@ Helping with the growth of less experienced developers (pair programming, worksh
 - Karma + Jasmine
 - Git
 
-Maintaining and developing gog.com - creating new functionalities and interface elements (promotions, product presentation, filtering, orders, payments, backoffice etc.), bugfixing, monitoring.
-
-Writing unit tests for new and existing modules and keeping coverage high when possible.
+Maintaining and developing gog.com - creating new functionalities and interface elements (promotions, product presentation, filtering, orders, payments, backoffice etc.), bugfixing, monitoring. Writing unit tests for new and existing modules and keeping coverage high when possible.
 
 ---
 
@@ -116,9 +133,7 @@ Writing unit tests for new and existing modules and keeping coverage high when p
 - RESTful API
 - Photoshop
 
-Implementing new functionalities, fixing bugs and refactoring code using fully component-based frontend.
-
-Building a React application for artists to upload their artworks to displate.com with scalability and good UX in mind. This was the first use of React in the organisation.
+Implementing new functionalities, fixing bugs and refactoring code using fully component-based frontend. Building a React application for artists to upload their artworks to displate.com with scalability and good UX in mind. This was the first use of React in the organisation.
 
 ---
 
