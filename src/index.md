@@ -32,7 +32,7 @@ inspiration: Inspiration
 - Git
 - Java
 
-Developing a well tested suite of applications meant to simplify planning flights for airlines. Using and developing a component library to ensure consistency of user experience and optimal velocity of implementing new features. Using OpenAI types and services generation provide a clean view on the API. Peer code review, sharing solutions and participating in unifying development process.
+Developing a well tested suite of applications meant to simplify planning flights for airlines. Using and developing a component library to ensure consistency of user experience and optimal velocity of implementing new features. Using OpenAPI types and services generation provide a clean view on the API. Peer code review, sharing solutions and participating in unifying development process.
 
 ---
 
