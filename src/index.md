@@ -82,9 +82,9 @@ Building features on frontend and backend in Product Page and Favourites context
 
 ### GOG.COM
 
-#### Senior Engineer / Frontend Tech Lead
+#### Senior Engineer
 
-##### Jan 2021 - Dec 2021
+##### Jun 2018 - Dec 2021
 
 - Angular
 - JavaScript
@@ -97,26 +97,9 @@ Building features on frontend and backend in Product Page and Favourites context
 - Git
 - Docker
 
-Developing a new e-commerce application (GOG Galaxy Store). Building and integrating refreshed version of GOG.com product catalog using newest Angular, SSR and K8s). Helping with the growth of less experienced developers (pair programming, workshops, hackatons, growth plans, 1 on 1 meetings).
-
----
-
-### GOG.COM
-
-#### Frontend Engineer
-
-##### Jun 2018 - Dec 2020
-
-- AngularJS
-- JavaScript
-- TypeScript
-- HTML5 & CSS3
-- Sass
-- RESTful API
-- Karma + Jasmine
-- Git
-
 Maintaining and developing gog.com - creating new functionalities and interface elements (promotions, product presentation, filtering, orders, payments, backoffice etc.), bugfixing, monitoring. Writing unit tests for new and existing modules and keeping coverage high when possible.
+
+Developing a new e-commerce application (GOG Galaxy Store). Building and integrating refreshed version of GOG.com product catalog using newest Angular, SSR and K8s). Helping with the growth of less experienced developers (pair programming, workshops, hackatons, growth plans, 1 on 1 meetings).
 
 ---
 
