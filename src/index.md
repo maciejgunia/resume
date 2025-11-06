@@ -82,7 +82,7 @@ Building features on frontend and backend in Product Page and Favourites context
 
 ### GOG.COM
 
-#### Senior Engineer
+#### Senior Engineer / Frontend Tech Lead
 
 ##### Jun 2018 - Dec 2021
 
